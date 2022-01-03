@@ -14,18 +14,18 @@ module.exports = {
         test: /\.?js$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader",
+          loader: 'babel-loader',
         },
         options: {
-          presets: ['@babel/preset-env', '@babel/preset-react']
-        }
+          presets: ['@babel/preset-env', '@babel/preset-react'],
+        },
       },
-    ]
+    ],
   },
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, "src", "index.html"),
+      template: path.join(__dirname, 'src', 'index.html'),
     }),
   ],
 };
