@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0c0c0c;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#container {
+  width: 50%;
+  margin: 20px auto;
+}
+
+#container #calculator {
+  width: 70%;
+  height: 520px;
+  background-color: #eaedef;
+  margin: 0 auto;
+  top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#container #calculator #result {
+  height: 80px;
+  background-color: gray;
+}
+
+#container #calculator #result #history {
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: gray;
+}
+
+#container #calculator #result #output {
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 30px;
+}
+
+#container #calculator #result #output p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+#container #calculator #keyboard {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+#container #calculator .operator,
+#container #calculator .number,
+#container #calculator .empty {
+  width: 100%;
+  float: left;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#container #calculator .number,
+#container #calculator .empty {
+  background-color: #eaedef;
+}
+
+#container #calculator .number,
+#container #calculator .operator {
+  cursor: pointer;
+  border: 1px solid #a1a0a0;
+}
+
+#container #calculator .operator:active,
+#container #calculator .number:active {
+  font-size: 13px;
+}
+
+#container #calculator button:nth-child(4) {
+  font-size: 20px;
+  background-color: #20b2aa;
+}
+
+#container #calculator button:nth-child(8) {
+  font-size: 20px;
+  background-color: #ffa500;
+}
+
+#container #calculator button:nth-child(12) {
+  font-size: 20px;
+  background-color: #f08080;
+}
+
+#container #calculator button:nth-child(16) {
+  font-size: 20px;
+  background-color: #7d93e0;
+}
+
+#container #calculator button:nth-child(20) {
+  font-size: 20px;
+  background-color: #9477af;
+}/*# sourceMappingURL=App.css.map */
