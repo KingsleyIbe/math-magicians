@@ -8,7 +8,7 @@ $secondaryColor1: #fff;
 
 //main style
 #container {
-	width: 50%;
+  width: 50%;
 	margin: 20px auto;
 
   #calculator {
@@ -55,7 +55,9 @@ $secondaryColor1: #fff;
       flex-wrap: wrap;
     }
 
-    .operator, .number, .empty {
+    .operator,
+    .number,
+    .empty {
       width: 100%;
       float: left;
       border-width: 0;
@@ -63,16 +65,19 @@ $secondaryColor1: #fff;
       font-size: 15px;
     }
 
-    .number, .empty {
+    .number,
+    .empty {
       background-color: #eaedef;
     }
 
-    .number, .operator {
+    .number,
+    .operator {
       cursor: pointer;
       border: 1px solid $primaryColor3;
     }
 
-    .operator:active, .number:active {
+    .operator:active,
+    .number:active {
       font-size: 13px;
     }
 
@@ -86,7 +91,7 @@ $secondaryColor1: #fff;
       background-color: #ffa500;
     }
 
-    button:nth-child(12){
+    button:nth-child(12) {
       font-size: 20px;
       background-color: #f08080;
     }
