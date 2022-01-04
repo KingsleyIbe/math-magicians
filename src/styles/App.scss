@@ -13,12 +13,11 @@ body {
 	margin: 20px auto;
 
   #calculator{
-    width: 320px;
+    width: 70%;
     height: 520px;
     background-color: #eaedef;
     margin: 0 auto;
     top: 20px;
-    position: relative;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -39,17 +38,24 @@ body {
         height: 60px;
         margin: 10px 20px;
         font-size: 30px;
+
+        p {
+          margin-top: 0;
+          margin-bottom: 0;
+          color: #fff;
+        }
       }
-    }
+      }
     #keyboard{
-      height: 400px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      height: 100%;
+      flex-wrap: wrap;
     }
     .operator, .number, .empty{
-      width: 50px;
-      height: 50px;
-      margin: 15px;
+      width: 100%;
       float: left;
-      border-radius: 50%;
       border-width: 0;
       font-weight: bold;
       font-size: 15px;
@@ -59,17 +65,11 @@ body {
     }
     .number, .operator{
       cursor: pointer;
+      border: 1px solid #a1a0a0;
     }
     .operator:active, .number:active{
       font-size: 13px;
     }
-    .operator:focus, .number:focus, .empty:focus{
-      outline: 0;
-    }
-    /* #divide{
-      font-size: 20px;
-      background-color: #20b2aa;
-    } */
     button:nth-child(4){
       font-size: 20px;
       background-color: #20b2aa;
