@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0c0c0c;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#container {
+  width: 50%;
+  margin: 20px auto;
+}
+#container #calculator {
+  width: 320px;
+  height: 520px;
+  background-color: #eaedef;
+  margin: 0 auto;
+  top: 20px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* #divide{
+    font-size: 20px;
+    background-color: #20b2aa;
+  } */
+}
+#container #calculator #result {
+  height: 80px;
+  background-color: gray;
+}
+#container #calculator #result #history {
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #919191;
+}
+#container #calculator #result #output {
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 30px;
+}
+#container #calculator #keyboard {
+  height: 400px;
+}
+#container #calculator .operator, #container #calculator .number, #container #calculator .empty {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+#container #calculator .number, #container #calculator .empty {
+  background-color: #eaedef;
+}
+#container #calculator .number, #container #calculator .operator {
+  cursor: pointer;
+}
+#container #calculator .operator:active, #container #calculator .number:active {
+  font-size: 13px;
+}
+#container #calculator .operator:focus, #container #calculator .number:focus, #container #calculator .empty:focus {
+  outline: 0;
+}
+#container #calculator button:nth-child(4) {
+  font-size: 20px;
+  background-color: #20b2aa;
+}
+#container #calculator button:nth-child(8) {
+  font-size: 20px;
+  background-color: #ffa500;
+}
+#container #calculator button:nth-child(12) {
+  font-size: 20px;
+  background-color: #f08080;
+}
+#container #calculator button:nth-child(16) {
+  font-size: 20px;
+  background-color: #7d93e0;
+}
+#container #calculator button:nth-child(20) {
+  font-size: 20px;
+  background-color: #9477af;
+}/*# sourceMappingURL=App.css.map */
