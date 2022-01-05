@@ -1,0 +1,20 @@
+# Stages run sequentially, so we add a new `deploy` stage 
+# after the `build` one
+stages:
+  - build
+  - deploy
+
+build:
+  ... # Same as before
+  
+pages:
+  image: alpine:latest
+  stage: deploy
+  variables:
+    GIT_STRATEGY: none        # Do not clone git repo
+  script:
+    # Rename the CRA `build` folder to `public`
+    - mv build public         
+  artifacts:
+    paths:
+      - public
