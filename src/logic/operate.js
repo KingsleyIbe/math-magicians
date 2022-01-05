@@ -1,8 +1,8 @@
-// import Big from 'big.js';
+import Big from 'big.js';
 
 export default function operate(numberOne, numberTwo, operation) {
-  const one = numberOne;
-  const two = numberTwo;
+  const one = Big(numberOne);
+  const two = Big(numberTwo);
   let result;
   switch (operation) {
     case '+':
