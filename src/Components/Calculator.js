@@ -40,7 +40,7 @@ class Calculator extends Component {
             <button type="button" className="operator" id="7" onClick={this.handleBtnClick}>7</button>
             <button type="button" className="number" id="8" onClick={this.handleBtnClick}>8</button>
             <button type="button" className="number" id="9" onClick={this.handleBtnClick}>9</button>
-            <button type="button" className="number" id="*" onClick={this.handleBtnClick}>&times;</button>
+            <button type="button" className="number" id="*" onClick={this.handleBtnClick}>x</button>
             <button type="button" className="operator" id="4" onClick={this.handleBtnClick}>4</button>
             <button type="button" className="number" id="5" onClick={this.handleBtnClick}>5</button>
             <button type="button" className="number" id="6" onClick={this.handleBtnClick}>6</button>
