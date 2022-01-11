@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/App.css';
 import calculate from '../logic/calculate';
+// import NavBar from './NavBar';
 
 const Calculator = () => {
   const [state, setState] = useState({ total: null, next: 0, operation: null });
@@ -10,6 +11,7 @@ const Calculator = () => {
 
   return (
     <div id="container">
+      {/* <NavBar /> */}
       <div id="calculator">
         <div id="result">
           <div id="history">
