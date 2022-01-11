@@ -18,12 +18,14 @@ const Quote = () => {
   }, [quote]);
 
   return (
-    <div className="home">
-      <div>
-        <h2 className="quote-h2">Random Mathematics Quotes</h2>
+    <section className="quote-section">
+      <div className="home">
+        <div>
+          <h2>Random Mathematics Quotes</h2>
+        </div>
+        <p>{quote}</p>
       </div>
-      <p>{quote}</p>
-    </div>
+    </section>
   );
 };
 

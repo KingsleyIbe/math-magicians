@@ -2,14 +2,14 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => (
-  <header>
-    <div>
-      <h3>Math Magician</h3>
+  <header className="header-elem">
+    <div className="header-h1">
+      <h1>Math Magicians</h1>
     </div>
-    <nav>
+    <nav className="navLinks">
       <NavLink
         className="navbar-item"
-        activeClassName="is-active"
+        activeClassName="active"
         to="/"
         exact
       >
@@ -21,24 +21,24 @@ const Header = () => (
 
       <NavLink
         className="navbar-item"
-        activeClassName="is-active"
+        activeClassName="active"
         to="/calculator"
         exact
       >
         {' '}
-        Calculator
+        | Calculator
         {' '}
 
       </NavLink>
 
       <NavLink
         className="navbar-item"
-        activeClassName="is-active"
+        activeClassName="active"
         to="/quote"
         exact
       >
         {' '}
-        Quote
+        | Quote
         {' '}
 
       </NavLink>
