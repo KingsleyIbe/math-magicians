@@ -1,22 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Mochiy+Pop+P+One&display=swap");
+
 body {
   margin: 0;
   padding: 0;
   background-color: #0c0c0c;
   color: #fff;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+
+.home-section h2,
+.quote-section h2 {
+  margin-left: 100px;
+}
+
+.home-section p,
+.quote-section p {
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
 }
 
 #container {
-  width: 50%;
-  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+#container .calc-h2 {
+  justify-content: left;
+  margin-left: 100px;
 }
 
 #container #calculator {
-  width: 70%;
+  width: 30%;
   height: 520px;
   background-color: #eaedef;
   margin: 0 auto;
-  top: 20px;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -38,13 +59,11 @@ body {
 #container #calculator #result #output {
   text-align: right;
   height: 60px;
-  margin: 10px 20px;
+  margin: 0 10px 0 0;
   font-size: 30px;
 }
 
 #container #calculator #result #output p {
-  margin-top: 0;
-  margin-bottom: 0;
   color: #fff;
 }
 
@@ -105,4 +124,39 @@ body {
 #container #calculator button:nth-child(20) {
   font-size: 20px;
   background-color: #9477af;
+}
+
+.error-message {
+  text-align: center;
+}
+
+.error-message .navbar-item {
+  color: #20b2aa;
+  text-decoration: none;
+}
+
+.header-elem {
+  display: flex;
+  flex-direction: row;
+  color: #20b2aa;
+  justify-content: space-between;
+}
+
+.header-elem .header-h1 {
+  margin-left: 100px;
+}
+
+.header-elem .navLinks {
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.header-elem .navLinks .navbar-item {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.header-elem .navLinks .active {
+  color: #20b2aa;
 }/*# sourceMappingURL=App.css.map */

@@ -5,18 +5,40 @@ $primaryColor1: #0c0c0c;
 $primaryColor2: gray;
 $primaryColor3: #a1a0a0;
 $secondaryColor1: #fff;
+$headerColor: #20b2aa;
 
 //main style
+
+.home-section,
+.quote-section {
+  h2 {
+    margin-left: 100px;
+  }
+
+  p {
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+  }
+}
+
 #container {
-  width: 50%;
-  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+  .calc-h2 {
+    justify-content: left;
+    margin-left: 100px;
+  }
 
   #calculator {
-    width: 70%;
+    width: 30%;
     height: 520px;
     background-color: #eaedef;
     margin: 0 auto;
-    top: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -36,12 +58,10 @@ $secondaryColor1: #fff;
       #output {
         text-align: right;
         height: 60px;
-        margin: 10px 20px;
+        margin: 0 10px 0 0;
         font-size: 30px;
 
         p {
-          margin-top: 0;
-          margin-bottom: 0;
           color: $secondaryColor1;
         }
       }
@@ -83,7 +103,7 @@ $secondaryColor1: #fff;
 
     button:nth-child(4) {
       font-size: 20px;
-      background-color: #20b2aa;
+      background-color: $headerColor;
     }
 
     button:nth-child(8) {
@@ -104,6 +124,41 @@ $secondaryColor1: #fff;
     button:nth-child(20) {
       font-size: 20px;
       background-color: #9477af;
+    }
+  }
+}
+
+.error-message {
+  text-align: center;
+
+  .navbar-item {
+    color: $headerColor;
+    text-decoration: none;
+  }
+}
+
+.header-elem {
+  display: flex;
+  flex-direction: row;
+  color: $headerColor;
+  justify-content: space-between;
+
+  .header-h1 {
+    margin-left: 100px;
+  }
+
+  .navLinks {
+    margin-right: 100px;
+    margin-top: 20px;
+
+    .navbar-item {
+      text-decoration: none;
+      color: $secondaryColor1;
+      font-size: 1.3rem;
+    }
+
+    .active {
+      color: $headerColor;
     }
   }
 }
