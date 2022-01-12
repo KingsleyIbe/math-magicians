@@ -1,7 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import Calculator from '../components/Calculator';
-import ErrorPage from '../pages/ErrorPage';
 import Home from '../pages/Home';
 import Quote from '../pages/Quote';
 
@@ -18,10 +17,6 @@ describe('Test UI of the webpage', () => {
 
   it('Quote displays on the page', () => {
     const tree = renderer.create(<Quote />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('ErrorPage displays on the page', () => {
-    const tree = renderer.create(<ErrorPage />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

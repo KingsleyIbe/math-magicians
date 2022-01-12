@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test UI of the webpage Calculator displays on the page 1`] = `
+<div
+  id="container"
+>
+  <div
+    className="calc-h2"
+  >
+    <h2>
+      Let's do some math!
+    </h2>
+  </div>
+  <div
+    id="calculator"
+  >
+    <div
+      id="result"
+    >
+      <div
+        id="history"
+      >
+        <p
+          id="history-value"
+        />
+      </div>
+      <div
+        id="output"
+      >
+        0
+      </div>
+    </div>
+    <div
+      id="keyboard"
+    >
+      <button
+        className="operator"
+        id="clear"
+        onClick={[Function]}
+        type="button"
+      >
+        C
+      </button>
+      <button
+        className="operator"
+        id="backspace"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="operator"
+        id="backspace"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="operator"
+        id="+"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+      <button
+        className="operator"
+        id="7"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="number"
+        id="8"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="number"
+        id="9"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="number"
+        id="*"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+      <button
+        className="operator"
+        id="4"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="number"
+        id="5"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="number"
+        id="6"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="number"
+        id="7"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+      <button
+        className="operator"
+        id="1"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="number"
+        id="2"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="number"
+        id="3"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="number"
+        id="4"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+      <button
+        className="operator"
+        id="+"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="empty"
+        id="0"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="number"
+        id="."
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="operator"
+        id="="
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test UI of the webpage Home displays on the page 1`] = `
+<section
+  className="home-section"
+>
+  <div>
+    <h2
+      className="home"
+    >
+      Welcome to our page!
+    </h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida, risus at dapibus aliquet, elit quam scelerisque tortor, nec accumsan eros nulla interdum justo. Pellentesque dignissim, sapien et congue rutrum, lorem tortor dapibus turpis, sit amet vestibulum eros mi et odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida, risus at dapibus aliquet, elit quam scelerisque tortor, nec accumsan eros nulla interdum justo. Pellentesque dignissim, sapien et congue rutrum, lorem tortor dapibus turpis, sit amet vestibulum eros mi et odio.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida, risus at dapibus aliquet, elit quam scelerisque tortor, nec accumsan eros nulla interdum justo. Pellentesque dignissim, sapien et congue rutrum, lorem tortor dapibus turpis, sit amet vestibulum eros mi et odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida, risus at dapibus aliquet, elit quam scelerisque tortor, nec accumsan eros nulla interdum justo. Pellentesque dignissim, sapien et congue rutrum, lorem tortor dapibus turpis, sit amet vestibulum eros mi et odio.
+    </p>
+  </div>
+</section>
+`;
+
+exports[`Test UI of the webpage Quote displays on the page 1`] = `
+<section
+  className="quote-section"
+>
+  <div
+    className="home"
+  >
+    <div>
+      <h2>
+        Random Mathematics Quotes
+      </h2>
+    </div>
+    <p>
+      Without mathematics, there’s nothing you can do. Everything around you is mathematics. Everything around you is numbers. - Shakuntala Devi
+    </p>
+  </div>
+</section>
+`;
