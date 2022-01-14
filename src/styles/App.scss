@@ -1,0 +1,164 @@
+@import "reset";
+
+//variables
+$primaryColor1: #0c0c0c;
+$primaryColor2: gray;
+$primaryColor3: #a1a0a0;
+$secondaryColor1: #fff;
+$headerColor: #20b2aa;
+
+//main style
+
+.home-section,
+.quote-section {
+  h2 {
+    margin-left: 100px;
+  }
+
+  p {
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+  .calc-h2 {
+    justify-content: left;
+    margin-left: 100px;
+  }
+
+  #calculator {
+    width: 30%;
+    height: 520px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    #result {
+      height: 80px;
+      background-color: $primaryColor2;
+
+      #history {
+        text-align: right;
+        height: 20px;
+        margin: 0 20px;
+        padding-top: 20px;
+        font-size: 15px;
+        color: $primaryColor2;
+      }
+
+      #output {
+        text-align: right;
+        height: 60px;
+        margin: 0 10px 0 0;
+        font-size: 30px;
+
+        p {
+          color: $secondaryColor1;
+        }
+      }
+    }
+
+    #keyboard {
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      height: 100%;
+      flex-wrap: wrap;
+    }
+
+    .operator,
+    .number,
+    .empty {
+      width: 100%;
+      float: left;
+      border-width: 0;
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    .number,
+    .empty {
+      background-color: #eaedef;
+    }
+
+    .number,
+    .operator {
+      cursor: pointer;
+      border: 1px solid $primaryColor3;
+    }
+
+    .operator:active,
+    .number:active {
+      font-size: 13px;
+    }
+
+    button:nth-child(4) {
+      font-size: 20px;
+      background-color: $headerColor;
+    }
+
+    button:nth-child(8) {
+      font-size: 20px;
+      background-color: #ffa500;
+    }
+
+    button:nth-child(12) {
+      font-size: 20px;
+      background-color: #f08080;
+    }
+
+    button:nth-child(16) {
+      font-size: 20px;
+      background-color: #7d93e0;
+    }
+
+    button:nth-child(20) {
+      font-size: 20px;
+      background-color: #9477af;
+    }
+  }
+}
+
+.error-message {
+  text-align: center;
+
+  .navbar-item {
+    color: $headerColor;
+    text-decoration: none;
+  }
+}
+
+.header-elem {
+  display: flex;
+  flex-direction: row;
+  color: $headerColor;
+  justify-content: space-between;
+
+  .header-h1 {
+    margin-left: 100px;
+  }
+
+  .navLinks {
+    margin-right: 100px;
+    margin-top: 20px;
+
+    .navbar-item {
+      text-decoration: none;
+      color: $secondaryColor1;
+      font-size: 1.3rem;
+    }
+
+    .active {
+      color: $headerColor;
+    }
+  }
+}

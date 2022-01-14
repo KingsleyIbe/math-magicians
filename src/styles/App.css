@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Mochiy+Pop+P+One&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0c0c0c;
+  color: #fff;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+
+.home-section h2,
+.quote-section h2 {
+  margin-left: 100px;
+}
+
+.home-section p,
+.quote-section p {
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+#container .calc-h2 {
+  justify-content: left;
+  margin-left: 100px;
+}
+
+#container #calculator {
+  width: 30%;
+  height: 520px;
+  background-color: #eaedef;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#container #calculator #result {
+  height: 80px;
+  background-color: gray;
+}
+
+#container #calculator #result #history {
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: gray;
+}
+
+#container #calculator #result #output {
+  text-align: right;
+  height: 60px;
+  margin: 0 10px 0 0;
+  font-size: 30px;
+}
+
+#container #calculator #result #output p {
+  color: #fff;
+}
+
+#container #calculator #keyboard {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+#container #calculator .operator,
+#container #calculator .number,
+#container #calculator .empty {
+  width: 100%;
+  float: left;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#container #calculator .number,
+#container #calculator .empty {
+  background-color: #eaedef;
+}
+
+#container #calculator .number,
+#container #calculator .operator {
+  cursor: pointer;
+  border: 1px solid #a1a0a0;
+}
+
+#container #calculator .operator:active,
+#container #calculator .number:active {
+  font-size: 13px;
+}
+
+#container #calculator button:nth-child(4) {
+  font-size: 20px;
+  background-color: #20b2aa;
+}
+
+#container #calculator button:nth-child(8) {
+  font-size: 20px;
+  background-color: #ffa500;
+}
+
+#container #calculator button:nth-child(12) {
+  font-size: 20px;
+  background-color: #f08080;
+}
+
+#container #calculator button:nth-child(16) {
+  font-size: 20px;
+  background-color: #7d93e0;
+}
+
+#container #calculator button:nth-child(20) {
+  font-size: 20px;
+  background-color: #9477af;
+}
+
+.error-message {
+  text-align: center;
+}
+
+.error-message .navbar-item {
+  color: #20b2aa;
+  text-decoration: none;
+}
+
+.header-elem {
+  display: flex;
+  flex-direction: row;
+  color: #20b2aa;
+  justify-content: space-between;
+}
+
+.header-elem .header-h1 {
+  margin-left: 100px;
+}
+
+.header-elem .navLinks {
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.header-elem .navLinks .navbar-item {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.header-elem .navLinks .active {
+  color: #20b2aa;
+}/*# sourceMappingURL=App.css.map */
