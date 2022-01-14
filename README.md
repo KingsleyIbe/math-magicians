@@ -75,8 +75,8 @@ Then run the server:
 
 ### 👨🏾‍⚕️ Kingsley Ibe
 
-- [Githubhandle](https://github.com/kingsleyibe)
-- [Twiterhandle](https://twitter.com/ibekingsley2)
+- [Github](https://github.com/kingsleyibe)
+- [Twitter](https://twitter.com/ibekingsley2)
 - [LinkedIn](https://www.linkedin.com/in/kingsley-ibe-5669a5134)
 
 ## 🤝 Contributing

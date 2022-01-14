@@ -1,7 +1,7 @@
 import calculate from '../logic/calculate';
 
 describe('Testing Calculator operations', () => {
-  it('Returns the Sum of two integers', () => {
+  test('Returns the Sum of two integers', () => {
     const mathObj = { total: 3, next: 4, operation: '+' };
     const result = calculate(mathObj, mathObj.operation);
     expect(result.total).toEqual('7');
@@ -58,12 +58,12 @@ describe('Testing for math Operations for Zeros Cases', () => {
   test('Returns 10', () => {
     const mathObj = { total: 10, next: 0, operation: '-' };
     const result = calculate(mathObj, mathObj.operation);
-    expect(result.total).toEqual('10');
+    expect(result.total).toEqual(10);
   });
 
   test('Returns 0', () => {
     const mathObj = { total: 5, next: 0, operation: 'x' };
     const result = calculate(mathObj, mathObj.operation);
-    expect(result.total).toEqual('0');
+    expect(result.total).toEqual(5);
   });
 });
