@@ -13,7 +13,7 @@ The application was built using Javascript, Sass.
 ## Other Important Information
 ## Built With
 
-- Basic Langusge - JavaScript 
+- Basic Language - JavaScript 
 - Framework - React
 - Other technologies/tools: 
 
@@ -75,9 +75,9 @@ Then run the server:
 
 ### 👨🏾‍⚕️ Kingsley Ibe
 
-- GitHub: [@githubhandle](https://github.com/kingsleyibe)
-- Twitter: [@twitterhandle](https://twitter.com/ibekingsley2)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kingsley-ibe-5669a5134)
+- [Github](https://github.com/kingsleyibe)
+- [Twitter](https://twitter.com/ibekingsley2)
+- [LinkedIn](https://www.linkedin.com/in/kingsley-ibe-5669a5134)
 
 ## 🤝 Contributing
 
