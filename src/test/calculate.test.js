@@ -48,7 +48,6 @@ describe('Testing for math Operations for decimal numbers', () => {
   });
 });
 
-
 describe('Testing for math Operations for Zeros Cases', () => {
   test('Returns 0', () => {
     const mathObj = { total: 0, next: 0, operation: '+' };

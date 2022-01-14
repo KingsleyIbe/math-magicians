@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Calculator from '../components/Calculator';
+import Calculator from 'src/components/Calculator';
 import Home from '../pages/Home';
 import Quote from '../pages/Quote';
 
