@@ -29,7 +29,9 @@ The application was built using Javascript, Sass.
 
 ## Live Demo
 
-- [Live Demo Link](https://kingsleyibe.github.io/math-magicians/)
+- [Github-Pages Live Demo Link](https://kingsleyibe.github.io/math-magicians/)
+- [Netflify Live Link](https://kingsleyibe.github.io/math-magicians/)
+- [Heroku Live Demo Link](https://kingsleyibe.github.io/math-magicians/)
 
 
 ## Getting Started
